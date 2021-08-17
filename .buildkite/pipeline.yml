@@ -1,0 +1,7 @@
+steps:
+  - input: "Who is running this script?"
+    fields:
+      - text: "Your name"
+        key: "name"
+  - label: "Run script"
+    command: script.sh
