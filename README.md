@@ -12,7 +12,7 @@ It includes:
 
 ## Screenshot
 
-<img src="input-step.png" alt="Screenshot of an input step" />
+<img src="input-step.jpg" alt="Screenshot of an input step" />
 
 ## License
 
