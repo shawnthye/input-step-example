@@ -1,7 +1,22 @@
 steps:
-  - input: "Who is running this script?"
+  - block: "Distribute"
+    input: "Who is running this script?"
     fields:
-      - text: "Your name"
-        key: "name"
+      - select: "Your flavor"
+        key: "distribute-flavor"
+        required: true
+        options:
+          - label: "Internal"
+            value: "internal"
+          - label: "Production"
+            value: "production"
+      - select: "Delivery address"
+        key: "distribute-destination"
+        required: true
+        options:
+          - label: "Firebase"
+            value: "firebase"
+          - label: "Google Play Store internal track"
+            value: "playstore"      
   - label: "Run script"
     command: script.sh
