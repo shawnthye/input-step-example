@@ -1,6 +1,5 @@
 steps:
   - block: "Distribute"
-    input: "Who is running this script?"
     fields:
       - select: "Your flavor"
         key: "distribute-flavor"
